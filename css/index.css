@@ -1,0 +1,110 @@
+﻿body {
+    max-width: 800px;
+    margin: auto;
+    background-color:rgba(170, 238, 238, 0.041);
+}
+
+hr {
+    margin: 10px;
+}
+
+p .aboutme {
+    text-align: center;
+    color: green;
+}
+
+#about img {
+    float: left;
+    width: 25%;
+}
+
+@media screen and  (min-width: 600px) {
+    .content {
+        display: inline-flex;
+        box-sizing: border-box;
+        background-color: rgb(232, 241, 222);
+    }
+
+    .cad {
+        width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .robot {
+        width: 50%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .cad {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .robot {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.content img:hover {
+    border: 3px solid rgba(140, 146, 138, 0.712);
+}
+
+.cad img {
+    margin-top: 20px;
+}
+
+.robot img {
+    margin-top: 5px;
+}
+
+
+p {
+    text-align: center;
+}
+
+#name {
+    width:200px;
+}
+
+#email {
+    width: 200px;
+}
+
+#comment {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.icon img {
+    width: 25%;
+    float: right;
+}
+
+.information {
+    border-block-end-width: 1px solid #000000;
+}
+
