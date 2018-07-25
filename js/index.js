@@ -3,7 +3,7 @@
 $('Form input[type = "submit"]').click(sendForm);
 
 function sendForm(e) {
-    var form = $('form')[0];
+    const form = $('form')[0];
     if (!form.checkValidity()) {
         return;
     }
