@@ -2,6 +2,9 @@
     max-width: 800px;
     margin: auto;
     background-color:rgba(170, 238, 238, 0.041);
+    background-image: url("img/back.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 hr {
