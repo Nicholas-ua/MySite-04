@@ -16,6 +16,7 @@ hr {
 p .aboutme {
     text-align: center;
     color: green;
+    text-decoration-color: blue;
 }
 
 #about img {
