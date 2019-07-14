@@ -10,44 +10,53 @@
     <link rel="stylesheet" href="css/robot.css">
 </head>
 <body>
-    <h3>This page is in development stage</h3>
+    <h3>Click on parts to assemble the Robot!</h3>
     <h2>Make the Robot</h2>
     <br />
-    <div id="parts" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <img src="images/base-01.png" draggable="true" ondragstart="drag(event)" id="drag1" alt="Base">
+    <div id="parts"> <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
+        <img src="images/base-01.png" id="drag1" onclick="hideDivs0()" alt="Base">
         <br />
         <hr />
 
-        <img src="images/flange-02.png" draggable="true" ondragstart="drag(event)" id="drag2" alt="Rotation flange">
+        <img src="images/flange-02.png" id="drag2" onclick="hideDivs1()" alt="Rotation flange">
         <br />
         <hr />
 
-        <img src="images/riser-03.png" draggable="true" ondragstart="drag(event)" id="drag3" alt="Riser">
+        <img src="images/riser-03.png" id="drag3" onclick="hideDivs2()" alt="Riser">
         <br />
         <hr />
 
-        <img src="images/slab-04.png" draggable="true" ondragstart="drag(event)" id="drag4" alt="Slabe">
+        <img src="images/slab-04.png" id="drag4" onclick="hideDivs3()" alt="Slabe">
         <br />
         <hr />
 
-        <img src="images/holder-05.png" draggable="true" ondragstart="drag(event)" id="drag5" alt="Holder">
+        <img src="images/holder-05.png" id="drag5" onclick="hideDivs4()" alt="Holder">
         <br />
         <hr />
 
-        <img src="images/vert-link-06.png" draggable="true" ondragstart="drag(event)" id="drag6" alt="Vertical link">
+        <img src="images/vert-link-06.png" id="drag6" onclick="hideDivs5()" alt="Vertical link">
         <br />
         <hr />
 
-        <img src="images/horiz-link-07.png" draggable="true" ondragstart="drag(event)" id="drag7" alt="Horizontal link">
+        <img src="images/horiz-link-07.png" id="drag7" onclick="hideDivs6()" alt="Horizontal link">
         <br />
         <hr />
     
-        <img src="images/bend-link-08.png" draggable="true" ondragstart="drag(event)" id="drag8" alt="Rotation link">
+        <img src="images/bend-link-08.png" id="drag8" onclick="hideDivs7()" alt="Rotation link">
         <br />
         <hr />
     </div>
-    <div id="assembl" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    <p>Try to complete the Robot from these parts!</p>
+    <div id="assembl"> <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
+        <img id="step00" src="images/base-01.png" style="display: none" alt="Step 0">
+        <img id="step01" src="images/step-01.png" style="display: none" alt="Step 1">
+        <img id="step02" src="images/step-02.png" style="display: none" alt="Step 2">
+        <img id="step03" src="images/step-03.png" style="display: none" alt="Step 3">
+        <img id="step04" src="images/step-04.png" style="display: none" alt="Step 4">
+        <img id="step05" src="images/step-05.png" style="display: none" alt="Step 5">
+        <img id="step06" src="images/step-06.png" style="display: none" alt="Step 6">
+        <img id="step07" src="images/step-07.png" style="display: none" alt="Step 7">
+    </div>
+    <p id="message"></p>
     <br />
     <hr />
     <script src="js/robot.js"></script>
