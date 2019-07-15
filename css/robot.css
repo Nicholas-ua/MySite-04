@@ -7,14 +7,14 @@ div {
     width: 45%;
     display: inline-block; /*inline-block*/
     border: 2px solid black;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 #assembl {
     width: 40%;
     height: 500px;
     /*margin-bottom: 100px;*/
-    margin-left: 5%;
+    margin-left: 1%;
     position: fixed;
     top: 15%;
 }
