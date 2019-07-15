@@ -11,7 +11,7 @@
 </head>
 <body>
     <h3>Click on parts to assemble the Robot!</h3>
-    <h2>Make the Robot</h2>
+    <h2 id="message">Make the Robot</h2>
     <br />
     <div id="parts"> <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
         <img src="images/base-01.png" id="drag1" onclick="hideDivs0()" alt="Base">
@@ -47,8 +47,8 @@
         <hr />
     </div>
     <div id="assembl"> <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
-        <img id="step00" src="images/base-01.png" style="display: none" alt="Step 0">
-        <img id="step01" src="images/step-01.png" style="display: none" alt="Step 1">
+        <img id="step00" src="images/base-01.png" width=100%; style="display: none" alt="Step 0">
+        <img id="step01" src="images/step-01.png" width=100%; style="display: none" alt="Step 1">
         <img id="step02" src="images/step-02.png" style="display: none" alt="Step 2">
         <img id="step03" src="images/step-03.png" style="display: none" alt="Step 3">
         <img id="step04" src="images/step-04.png" style="display: none" alt="Step 4">
@@ -56,9 +56,7 @@
         <img id="step06" src="images/step-06.png" style="display: none" alt="Step 6">
         <img id="step07" src="images/step-07.png" style="display: none" alt="Step 7">
     </div>
-    <p id="message"></p>
     <br />
-    <hr />
     <script src="js/robot.js"></script>
 </body>
 </html>
