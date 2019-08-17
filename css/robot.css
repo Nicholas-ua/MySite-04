@@ -3,27 +3,33 @@
     margin: auto;
 }
 
-div {
+#parts {
+    float: left;
     width: 45%;
-    display: inline-block; /*inline-block*/
+    /*display: inline-block; /*inline-block*/
     border: 2px solid black;
     margin-left: 1%;
 }
 
 #assembl {
-    width: 40%;
-    height: 500px;
+    float: right;
+    width: 45%;
+    /*height: 800px;*/
     /*margin-bottom: 100px;*/
-    margin-left: 1%;
-    position: fixed;
-    top: 15%;
+    /*margin-left: 1%;*/
+    /*position: fixed;
+    bottom: 10%;
+    right: 5%;*/
+    top: 10%;
+    border: 2px solid black;
 }
 
 #assembl img {
     border-radius: 10px;
-    height: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
 }
 
 h2 {
