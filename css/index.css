@@ -66,7 +66,7 @@ img {
 }
 
 .content img:hover {
-    border: 3px solid rgba(140, 146, 138, 0.712);
+    border: 3px solid rgba(12, 12, 12, 0.712);
 }
 
 .cad img {
@@ -82,24 +82,6 @@ p {
     text-align: center;
 }
 
-#name {
-    width:200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#email {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#comment {
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h2 {
     text-align: center;
 }
@@ -113,10 +95,13 @@ h2 {
 .icon img {
     width: 25%;
     /*float: right;*/
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
+#contacts {
+    text-align: center;
+}
 /*.information {
     border-block-end-width: 1px solid #000000;
 }*/
